@@ -25,6 +25,7 @@
 
 def hamta_element(lista, index):
     # DIN KOD HÄR
+    return lista[index]
     pass
 
 
@@ -40,6 +41,10 @@ def hamta_element(lista, index):
 
 def summera(tallista):
     # DIN KOD HÄR
+    summa = 0
+    for tal in tallista:
+        summa += tal
+    return summa
     pass
 
 
@@ -54,4 +59,9 @@ def summera(tallista):
 
 def lagg_till_utrop(stränglista):
     # DIN KOD HÄR
+    resultat = []
+    for s in stränglista:
+        resultat.append(s + '!')
+    return resultat
+
     pass
